@@ -12,8 +12,7 @@ Voor je de server kunt gebruiken zul je de de dependencies moeten installeren me
 
 `npm install`
 
-Er is een speciaal script aangemaakt om deze server te runnen. Het letterlijke script - mocht je nieuwsgierig zijn - kun
-je terugvinden in de `package.json`. Om de server te starten hoef je slechts het volgende commando in jouw terminal in
+Er is een speciaal script aangemaakt om deze server te runnen. Om de server te starten hoef je slechts het volgende commando in jouw terminal in
 te voeren:
 
 `npm run json:server`
@@ -23,8 +22,7 @@ beschikbare endpoints zien verschijnen. Dit mag je echter weer wegklikken, want 
 
 ## Endpoints
 
-Wanneer deze server draait, is hij benaderbaar op [http://localhost:3000](http://localhost:3000). Dis is de **basis url
-**, welke aan te vullen is met de onderstaande endpoints:
+Wanneer deze server draait, is hij benaderbaar op [http://localhost:3000](http://localhost:3000). Dis is de **basis url**, welke aan te vullen is met de onderstaande endpoints:
 
 ### Alle taken ophalen
 
