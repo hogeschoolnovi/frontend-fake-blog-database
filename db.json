@@ -6,22 +6,23 @@
       "completed": false,
       "description": "Learn CSS and style your web page",
       "priority": 2,
-      "created": "2023-08-08T13:28:53.846Z"
+      "created": "2023-06-08T09:34:53.846Z"
     },
     {
       "id": "b8c334a5-8e83-4d6a-a62d-0901fdf7d198",
-      "title": "Learn React",
+      "title": "Learn JavaScript",
       "completed": true,
-      "description": "Learn React and build a todo app",
+      "description": "Learn JavaScript and make your web page interactive",
       "priority": 1,
       "created": "2023-08-08T13:28:53.846Z"
     },
     {
       "id": "643b8e2d-e9f9-4819-9e21-5ff9f58504ba",
-      "title": "dit zijn nog meer dingen",
-      "completed": true,
+      "title": "Learn React",
+      "description": "Learn React and build a todo app",
+      "completed": false,
       "priority": 3,
-      "created": "2023-08-08T13:38:07.886Z"
+      "created": "2023-07-08T17:32:01.886Z"
     }
   ],
   "profile": {
