@@ -77,8 +77,8 @@ De backend stuurt bij success alle informatie van de zojuist toegevoegde taak te
 
 `GET /todos/:id`
 
-Hierin wordt `:id` vervangen voor de daadwerkelijke id van de taak die verwijderd moet worden. De backend stuurt bij
-success een taak-object terug.
+Hierin wordt `:id` vervangen voor de daadwerkelijke id van de taak die opgehaald moet worden. De backend stuurt bij
+success een compleet taak-object terug.
 
 **Voorbeeld response**
 
@@ -98,16 +98,14 @@ success een taak-object terug.
 `DELETE /todos/:id`
 
 Hierin wordt `:id` vervangen voor de daadwerkelijke id van de taak die verwijderd moet worden. De backend stuurt bij
-success een leeg object terug.
+success een leeg object (`{}`) terug.
 
 ### Een taak wijzigen
 
 `PUT /todos/:id`
 
 Hierin wordt `:id` vervangen voor de daadwerkelijke id van de taak die gewijzigd moet worden. Alle velden, behalve
-het `id`-veld, kunnen gewijzigd worden.
-Let op: je stuurt het nieuwe taak-object met alle gewenste wijzigingen mee, ook als slechts één van de velden gewijzigd
-is:
+het `id`-veld, kunnen gewijzigd worden. _Let op:_ je stuurt het **gehele taak-object** inclusief alle gewenste wijzigingen mee, ook als slechts één van de velden gewijzigd is. De oude taak wordt namelijk in z'n geheel vervangen met de taak die je in dit request meestuurt (behalve de `id`-key).
 
 * `title` (type _String_)
 * `completed` (type _Boolean_)
@@ -124,7 +122,7 @@ De backend stuurt bij success het gewijzigde taak-object terug.
 Bij het ophalen van de profiel-informatie stuurt de backend standaard de volgende response terug:
 
 ```json
-  {
+{
   "name": "Equals"
 }
 ```
