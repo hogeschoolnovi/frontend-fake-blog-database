@@ -10,12 +10,16 @@ bewerken, door gebruik te maken van specifieke eindpoints.
 
 Voor je de server kunt gebruiken zul je de de dependencies moeten installeren met het commando:
 
-`npm install`
+```shell
+npm install
+```
 
 Er is een speciaal script aangemaakt om deze server te runnen. Om de server te starten hoef je slechts het volgende commando in jouw terminal in
 te voeren:
 
-`npm run json:server`
+```shell
+npm run json:server
+```
 
 Deze server draait op [http://localhost:3000](http://localhost:3000), wanneer je dit in de browser opent zul je de
 beschikbare endpoints zien verschijnen. Dit mag je echter weer wegklikken, want deze heb je niet nodig.
