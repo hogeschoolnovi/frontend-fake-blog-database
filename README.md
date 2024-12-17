@@ -70,7 +70,7 @@ De backend stuurt bij success een array van blogposts terug.
 
 `POST /posts`
 
-Er kan slechts één taak tegelijk worden toegevoegd. Bij het toevoegen van een taak moeten de volgende velden worden
+Er kan slechts één post tegelijk worden toegevoegd. Bij het toevoegen van een post moeten de volgende velden worden
 meegestuurd in een object, om consistentie in de database te waarborgen:
 
 * `title` (type _String_)
